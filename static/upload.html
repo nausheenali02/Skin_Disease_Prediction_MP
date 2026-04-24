@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Image - Skin Disease Predictor</title>
+    <link rel="stylesheet" href="/static/upload.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Upload Skin Image</h1>
+
+        <p class="subtitle">Choose a clear dermoscopic image for AI analysis.</p>
+
+        <!-- Upload Box -->
+        <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+            <p>Click to upload image</p>
+            <input type="file" id="fileInput" accept="image/*" hidden onchange="previewImage(event)">
+        </div>
+
+        <!-- Image Preview -->
+        <img id="preview" class="preview-image" style="display: none;" />
+
+        <button class="analyze-btn" onclick="analyzePrediction()">
+            Analyze Skin Condition
+        </button>
+
+        <!-- Result Box -->
+        <div id="resultBox" class="result-box" style="display: none;">
+            <h3>Prediction Result:</h3>
+            <p id="resultText"></p>
+        </div>
+
+    </div>
+
+    <script src="/static/upload.js"></script>
+</body>
+</html>
