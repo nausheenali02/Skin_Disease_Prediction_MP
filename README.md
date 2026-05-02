@@ -1,5 +1,5 @@
 Check our web app:
-https://nausheenali-skin-disease-predictor.hf.space
+https://nausheenali-skin-disease-predictor-9452c9a.hf.space
 
 📌 Project Overview
 Skin diseases affect over 900 million people globally. While many conditions are manageable, malignant melanoma accounts for nearly 75% of skin-cancer-related deaths. Early detection is critical; the 5-year survival rate drops from 98% (Stage I) to below 20% (Stage IV).
